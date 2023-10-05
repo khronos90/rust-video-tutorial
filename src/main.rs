@@ -4,6 +4,7 @@ mod activities {
     pub mod activity_14;
     pub mod activity_15;
     pub mod activity_16;
+    pub mod activity_17;
     pub mod activity_eigth;
     pub mod activity_eleven;
     pub mod activity_five;
@@ -308,4 +309,7 @@ fn main() {
 
     // Standard library usage
     activities::activity_16::standard_lib();
+
+    // Results
+    activities::activity_17::results();
 }
